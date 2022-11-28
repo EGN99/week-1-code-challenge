@@ -1,3 +1,7 @@
+// for speed below 70, print okay
+//for each increase of 5km/s award 1 demerit point upto 12 points.
+
+
 let speed=84;
 let demeritPoints;
 if (speed<70) {
@@ -27,6 +31,7 @@ if (speed<70) {
 } else if (speed>125 && speed<=130){
         demeritPoints="Points:12"
 }else if (speed>130){
+//if the  driver is awarded more than 12 points, the program prints "License Suspended"
     demeritPoints= "License suspended"
 }
 

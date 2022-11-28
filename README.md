@@ -19,8 +19,7 @@ WEEK-1-CODE-CHALLENGE
     This program calculates the Payee Tax, NHIF, NSSF Deductions and net salary.
     The sum of the Payee tax, NHIF payment and NSSF payment is deducted from the salary to get the net salary.
 
-    The source for rates is https://www.aren.co.ke/payroll/taxrates.htm
-
+    The source for the rates is https://www.aren.co.ke/payroll/taxrates.htm
 
 
 
