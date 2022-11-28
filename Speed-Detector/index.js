@@ -35,4 +35,4 @@ if (speed<70) {
     demeritPoints= "License suspended"
 }
 
-console.log (speedDetector);
+console.log (demeritPoints);

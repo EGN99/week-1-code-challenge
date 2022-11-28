@@ -2,7 +2,6 @@ let salary=45000;
 
 // PAYE deduction
 //amount to be deducted is 'deduction1'
-//source for rates is https://www.aren.co.ke/payroll/taxrates.htm
 
 let deduction1;
 if (salary<=24000){
@@ -18,12 +17,11 @@ if (salary<=24000){
 //NSSF calculator
 //amount to be deducted is 'deduction2'
 //deduction2 is 6 percent of salary
-//source for rates is https://www.aren.co.ke/payroll/taxrates.htm
 let deduction2=(salary*0.06)
 
 //NHIF
 //amount to be deducted is 'deduction3'
-//source for rates is https://www.aren.co.ke/payroll/taxrates.htm
+
 let deduction3;
 if (salary<6000){
     deduction3=150
@@ -77,3 +75,4 @@ deduction3=1700
 //Net salary calculator
 //Net salary=salary-(NHIF payment+NSSF payment+PAYE tax)
 let netSalary = salary-(deduction1+deduction2+deduction3);
+console.log(netSalary)
